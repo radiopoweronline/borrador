@@ -269,46 +269,6 @@ Vegas Slider Images
 
 
 
-<!-- Player Barra Fija y Completo -->
-<b:if cond='data:blog.pageType == &quot;item&quot; or data:blog.pageType == &quot;index&quot;'>
-  <style>
-    /* Barra fija */
-    .player-bar {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 200px; /* Altura ajustable */
-      background-color: transparent; /* Color de fondo */
-      z-index: 9999;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: none;
-      overflow: hidden; /* Previene contenido extra */
-    }
-
-    /* El iframe ocupa toda la barra */
-    .player-bar iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-
-    /* Asegura que no se solape el contenido */
-    body {
-      padding-bottom: 100px; /* Espaciado igual a la altura del player */
-    }
-
-    @media screen and (max-width: 768px) {
-      .player-bar {
-        height: 100px; /* Altura más pequeña en dispositivos móviles */
-      }
-    }
-  </style>
-
-
-
 
 
 <!--=================================
